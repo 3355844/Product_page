@@ -1,0 +1,379 @@
+body {
+    font-family: "Verdana";
+    margin: 0;
+    padding: 0;
+}
+
+span, hr, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+}
+
+.float_none {
+    float: none;
+}
+
+.float_r {
+    float: right;
+}
+
+.float_l {
+    float: left;
+}
+
+.h_114 {
+    height: 114px;
+}
+
+.m_0 {
+    margin: 0;
+}
+
+.p_0 {
+    padding: 0;
+}
+
+.pr_17 {
+    padding-right: 17px;
+}
+
+.pl_12 {
+    padding-left: 12px;
+}
+
+.pl_21 {
+    padding-left: 21px;
+}
+
+.pt_12 {
+    padding-top: 12px;
+}
+
+.pt_29 {
+    padding-top: 29px;
+}
+
+.p_6_21 {
+    padding: 6px 21px;
+}
+
+.p_button {
+    padding: 12px 29px;
+    border-radius: 4px;
+}
+
+.pb_12 {
+    padding-bottom: 12px;
+}
+
+.pb_29 {
+    padding-bottom: 29px;
+}
+
+.mb_11 {
+    margin-bottom: 11px;
+}
+
+.ml_4 {
+    margin-left: 4px;
+}
+
+.ml_5_minus {
+    margin-left: -5px;
+}
+
+.ml_11_minus {
+    margin-left: -11px;
+}
+
+.ml_9 {
+    margin-left: 9px;
+}
+
+.ml_20 {
+    margin-left: 20px;
+}
+
+.ml_41 {
+    margin-left: 41px;
+}
+
+.ml_97 {
+    margin-left: 97px;
+}
+
+.ml_242 {
+    margin-left: 242px;
+}
+
+.mr_5 {
+    margin-right: 5px;
+}
+
+.mr_21 {
+    margin-right: 21px;
+}
+
+.ml_220 {
+    margin-left: 221px;
+}
+
+.mt_5 {
+    margin-top: 5px;
+}
+
+.mt_11 {
+    margin-top: 11px;
+}
+
+.mt_17 {
+    margin-top: 17px;
+}
+
+.mt_21 {
+    margin-top: 41px;
+}
+
+.mt_26 {
+    margin-top: 26px;
+}
+
+.mt_40 {
+    margin-top: 40px;
+}
+
+.w_124 {
+    width: 124px;
+}
+
+.w_219 {
+    width: 219px;
+}
+
+.w_380 {
+    width: 380px;
+}
+
+.w_398 {
+    width: 398px;
+}
+
+.image_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t_al_center {
+    text-align: center;
+}
+
+.line_height {
+    line-height: 1.5;
+}
+
+.tc_green {
+    color: #336600;
+}
+
+.tc_white {
+    color: white;
+}
+
+.tc_red {
+    color: #cb2929;
+}
+
+.tc_dark_grey {
+    color: #333333;
+}
+
+.tc_light_grey {
+    color: #666666;
+}
+
+.tc_violet {
+    color: #976597;
+}
+
+.tc_violet_2 {
+    color: #9702d7;
+}
+
+.tc_orange {
+    color: #f17400;
+}
+
+.td_line_through {
+    text-decoration: line-through;
+}
+
+.tf_28px {
+    font-size: 28px;
+}
+
+.tf_20px {
+    font-size: 20px;
+}
+
+.tf_18px {
+    font-size: 18px;
+}
+
+.tf_16px {
+    font-size: 16px;
+}
+
+.tf_14px {
+    font-size: 14px;
+}
+
+.tf_13px {
+    font-size: 13px;
+}
+
+.tf_12px {
+    font-size: 12px;
+}
+
+.tf_11px {
+    font-size: 11px;
+}
+
+.tw_bold {
+    font-weight: bold;
+}
+
+.tw_normal {
+    font-weight: lighter;
+}
+
+/*Product page*/
+
+#product_page {
+    margin: 19px 0px 0px 25px;
+
+}
+
+/*Left info*/
+
+.left_info {
+    float: left;
+    width: 370px;
+}
+
+.border_img_icons_grey {
+    height: 40px;
+    width: 40px;
+    border: solid 1px #cccccc;
+}
+
+.border_grey {
+    border: solid 1px #cccccc;
+}
+
+.border_img_icons_grey a {
+    height: 40px;
+    width: 40px;
+}
+
+.bg_col_light_grey {
+    background-color: #fafafa;
+}
+
+.bg_col_grey {
+    background-color: #f2f2f2;
+}
+
+.bg_col_white {
+    background-color: white;
+}
+
+.bg_col_orange {
+    background-color: #f17400;
+}
+
+.description {
+    height: 14px;
+    width: 335px;
+    margin-right: 35px;
+}
+
+/*Right info*/
+
+.right_info {
+    margin-left: 370px;
+    width: 400px;
+    height: 30px;
+}
+
+.border_orange {
+    border: solid #f17400 1px;
+}
+
+.img_coupon {
+    margin-bottom: -6px;
+}
+
+.custom {
+    color: #333333;
+    margin-top: 11px;
+    /*list-style-type: none;*/
+    display: block;
+    padding: 8px;
+    width: 158px;
+    border: solid 1px #cccccc;
+    background-color: white;
+    text-decoration: none;
+}
+
+.custom img {
+    float: right;
+    margin-top: 6px;
+    margin-right: 6px;
+}
+
+.in_line li {
+    display: inline;
+    list-style-type: none;
+}
+
+.lt_st_none {
+    list-style: none;
+}
+
+.mb_8 {
+    margin-bottom: 8px;
+}
+
+.mb_40 {
+    margin-bottom: 40px;
+}
+
+.mt_60 {
+    margin-top: 60px;
+}
+
+.mt_80 {
+    margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
